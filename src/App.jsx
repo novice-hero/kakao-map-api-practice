@@ -1,8 +1,12 @@
 import "./App.css";
-const API_KEY = process.env.REACT_APP_KAKAO_MAP_KEY;
+import Map from "./components/Map";
 
 function App() {
-  return <div className="App">하이</div>;
+  return (
+    <div className="App">
+      <Map />
+    </div>
+  );
 }
 
 export default App;
